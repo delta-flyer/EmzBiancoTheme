@@ -57,50 +57,46 @@ SHOPWARE_EOD;
         '50'
       );
 
-      $socialMediaInstagramField = $this->createTextField(
+    $socialMediaInstagramField = $this->createTextField(
         'emzSocialMediaInstagramLink',
         'Instragram Link',
-        ''
+        '',
+			['attributes' => ['lessCompatible' => false]]
       );
 
       $socialMediaFacebookField = $this->createTextField(
         'emzSocialMediaFacebookLink',
         'Facebook Link',
-        ''
+        '',
+			['attributes' => ['lessCompatible' => false]]
       );
 
       $socialMediaTwitterField = $this->createTextField(
         'emzSocialMediaTwitterLink',
         'Twitter Link',
-        ''
+       '',
+			['attributes' => ['lessCompatible' => false]]
       );
 
       $socialMediaPinterestField = $this->createTextField(
         'emzSocialMediaPinterestLink',
         'Pinterest Link',
-        ''
+        '',
+			['attributes' => ['lessCompatible' => false]]
       );
 
       $socialMediaYoutubeField = $this->createTextField(
         'emzSocialMediaYoutubeLink',
         'Youtube Link',
-        ''
+        '',
+			['attributes' => ['lessCompatible' => false]]
       );
 
       $socialMediaGooglePlusField = $this->createTextField(
         'emzSocialMediaGooglePlusLink',
         'Google+ Link',
-        ''
-      );
-
-      $headerFieldSet = $this->createFieldSet(
-        'emz_bianco_header_fieldset',
-        'Header'
-      );
-
-      $socialMediaFieldSet = $this->createFieldSet(
-        'emz_bianco_social_media_fieldset',
-        'Soziale Netzwerke'
+        '',
+			['attributes' => ['lessCompatible' => false]]
       );
 
       $biancoThemeTab = $this->createTab(
